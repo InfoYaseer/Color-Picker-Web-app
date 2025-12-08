@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans Black', sans-serif;
+}
+
+body{
+    background: #202124;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.title{
+    color: #e8eaed;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    min-height: 350px;
+    padding: 30px 40px;
+    border: 1px solid #3c4043;
+    border-radius: 8px;
+    background: #202124;
+    position: relative;
+}
+
+.content{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #3c4043;
+    border-radius: 8px;
+    background: #202124;
+}
+
+#color-codes{
+    color: #bdc1c6;
+    text-align: center;
+}
+
+#color-codes li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.color-picker{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.color-indicator{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+/* ⭐ Mobile Responsive Adjustments */
+@media (max-width: 600px){
+    .container{
+        padding: 20px;
+    }
+
+    .color-indicator{
+        width: 160px;
+        height: 160px;
+    }
+
+    .title{
+        font-size: 1.6rem;
+    }
+
+    #color-codes li{
+        display: block;
+        margin: 8px 0;
+    }
+}
