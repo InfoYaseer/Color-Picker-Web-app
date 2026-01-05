@@ -1,3 +1,3 @@
 ## 📸 Demo
-- Live Site: https://yaseerm.me/javascript-projects/color-picker%20web%20app/
+- Live Site: https://infoyaseer.github.io/Color-Picker-Web-app/
 - Source Code: This repository
